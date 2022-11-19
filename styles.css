@@ -7,6 +7,11 @@
 
 .navbar-nav {
    margin-left: auto;
+   margin-top: 15px;
+}
+
+.nav-logo {
+   width: 275px;
 }
 
 .brand-logo { padding: 10px; }
@@ -26,6 +31,18 @@
    cursor: pointer;
    text-transform: lowercase;
 }
+
+.hero-content {
+   text-align: center;
+   padding: 5.5rem 0;
+}
+ .fa-paw {
+   font-size: 50px;
+ }
+
+
+
+
 
 .full-site-modal {
    position: fixed;

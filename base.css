@@ -93,3 +93,22 @@ button:not(.disabled):not(.disabled) {
 .round-pill {
    border-radius: 50rem;
 }
+
+.header-lg {
+   font-size: 3.5rem;
+   letter-spacing: -2.5px;
+   line-height: 1.05;
+   font-family: cursive;
+}
+
+.header-md {
+   font-size: 3rem;
+   letter-spacing: -1.75px;
+}
+
+.sub-header {
+   font-size: 1.3125rem;
+   line-height: 1.5;
+   padding-top: 1.25rem;
+   padding-bottom: 1.875rem;
+}
