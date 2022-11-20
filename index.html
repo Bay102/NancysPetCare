@@ -10,98 +10,157 @@
     <link rel="stylesheet" href="/pages.css" />
     <link rel="stylesheet" href="/index.html" />
     <script
-      src="https://kit.fontawesome.com/67890cb4aa.js" crossorigin="anonymous"></script>
-    <title>Nancys Pet Care Services</title>
+      src="https://kit.fontawesome.com/67890cb4aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nancy's Pet Care Services</title>
   </head>
+
   <body>
-      <main class= "site-wrapper">
-         <header class="site-header">
-            <nav class="navbar">
-               <div class="brand-logo">
-                  <a href="/"><img class="nav-logo" src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png" alt=""></a>
-               </div>
-               <div class="navbar-nav">
-                  <ul class="ul-defaults-none main-menu">
-                     <li class="nav-item">Home</li>
-                     <li class="nav-item" data-open="about">About</li>
-                     <li class="nav-item" data-open="contact">Contact</li>
-                  </ul>
-               </div>
-            </nav>
-         </header>
+   
 
-         <!-- Hero section -->
-         <section class="hero-bg">
-            <div class="container">
-               <div class="hero-content">
-                  <div class="code-icon">
-                     <i class="fa-solid fa-paw"></i>
-                  </div>
-                  <h2 class="header-lg">Private Dog Boarding <br> for <br> Las Vegas</h2>
-                  <div class="sub-header">
-                   Offering Private In Home Pet Boarding, Drop-ins, Daycare & Much More!
-                   <br>
-                   Message Me Today to Schedule a FREE Meet & Greet
-                  </div>
-                  <div>
-                     <a href="#" data-open="contact">Lets Talk Now</a>
-                  </div>
-               </div>
+   <div class="theme-panel">
+      <div class="theme-body">
+         <span>Change Theme</span>
+      <div class="btn-group">
+         <button data-toggle="light" class="switcher-btn active">Light</button>
+         <button data-toggle="dark" class="switcher-btn">Dark</button>
+      </div> 
+         <button class="theme-tab">
+            <i class="fas fa-chevron-left"></i>
+         </button>
+      </div>
+   </div>
 
+    <main class="site-wrapper">
+      <div class="custom-shape-divider-bottom-1668917715"> 
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    
+      <header class="site-header">
+        <nav class="navbar">
+          <div class="brand-logo">
+            <a href="/"
+              ><img
+                class="nav-logo"
+                src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="navbar-nav">
+            <ul class="ul-defaults-none main-menu">
+              <li class="nav-item">Home</li>
+              <li class="nav-item" data-open="newclients">New Clients</li>
+              <li class="nav-item" data-open="rates">Rates</li>
+              <li class="nav-item" data-open="contact">Contact</li>
+              <li class="nav-item" data-open="about">About</li>
+              <li class="nav-item" data-open="reviews">Reviews</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero section -->
+    
+      <section class="hero-bg">
+        <div class="container">
+          <div class="hero-content">
+            <div class="code-icon">
+              <i class="fa-solid fa-paw"></i>
             </div>
-         </section>
-   </main>
+            <h2 class="header-lg">
+              The Private Dog Boarder <br />
+              for <br />
+              Las Vegas
+            </h2>
+            <div class="sub-header">
+              Private In Home Dog Boarding, Puppy Training, Daycare & Much More!
+              <br />
+              Message Me Today to Schedule a FREE Meet & Greet!
+            </div>
+            <div class="btn btn-primary round-pill">
+              <a href="#" data-open="contact">New Client? Lets Talk Now</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <!-- Modals Start  -->
 
-
-
- <!-- Modals Start  -->
-
- <!-- About Modal -->
-   <div id="about" class="full-site-modal " data-animation="zoomInOut">
+    <!-- New Clients -->
+    <div id="newclients" class="full-site-modal" data-animation="zoomInOut">
       <header class="modal-header">
-         <h3>ABOUT PAGE</h3>
-         <i class="fas fa-times" data-close></i>
+        <h3>NEW CLIENTS</h3>
+        <i class="fas fa-times" data-close></i>
+      </header>
+    </div>
+
+    <!-- Rates Modal -->
+    <div id="rates" class="full-site-modal" data-animation="zoomInOut">
+      <header class="modal-header">
+        <h3>RATES</h3>
+        <i class="fas fa-times" data-close></i>
+      </header>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contact" class="full-site-modal" data-animation="zoomInOut">
+      <header class="modal-header">
+        <h3>CONTACT</h3>
+        <i class="fas fa-times" data-close></i>
       </header>
       <div class="modal-body">
-         <div class="image-wrapper">
-            <img class="nancys-logo" src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png" alt="">
-         </div>
-         <h2>Zak Bay</h2>
-         <p>Text 1</p>
-         <p>Text 2</p>
-         <div>
-            <div>Email Me:</div>
-            <a href="mailto:zak@codebay.tech">Zak@codebay.tech</a>
-         </div>
+        <div class="image-wrapper">
+          <img
+            class="nancys-logo"
+            src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png"
+            alt=""
+          />
+        </div>
+        <h2>Zak Bay</h2>
+        <p>Text 1</p>
+        <p>Text 2</p>
+        <div>
+          <div>Email Me:</div>
+          <a href="mailto:zak@codebay.tech">Zak@codebay.tech</a>
+        </div>
       </div>
-   </div>
-
-   <!-- contact modal -->
-   <div id="contact" class="full-site-modal " data-animation="zoomInOut">
+    </div>
+    <!-- About Modal -->
+    <div id="about" class="full-site-modal" data-animation="zoomInOut">
       <header class="modal-header">
-         <h3>CONTACT</h3>
-         <i class="fas fa-times" data-close></i>
+        <h3>ABOUT PAGE</h3>
+        <i class="fas fa-times" data-close></i>
       </header>
       <div class="modal-body">
-         <div class="image-wrapper">
-            <img class="nancys-logo" src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png" alt="">
-         </div>
-         <h2>Zak Bay</h2>
-         <p>Text 1</p>
-         <p>Text 2</p>
-         <div>
-            <div>Email Me:</div>
-            <a href="mailto:zak@codebay.tech">Zak@codebay.tech</a>
-         </div>
+        <div class="image-wrapper">
+          <img
+            class="nancys-logo"
+            src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png"
+            alt=""
+          />
+        </div>
+        <h2>Zak Bay</h2>
+        <p>Text 1</p>
+        <p>Text 2</p>
+        <div>
+          <div>Email Me:</div>
+          <a href="mailto:zak@codebay.tech">Zak@codebay.tech</a>
+        </div>
       </div>
-   </div>
+    </div>
 
-
-
-
-
-
+    <!-- Reviews modal -->
+    <div id="reviews" class="full-site-modal" data-animation="zoomInOut">
+      <header class="modal-header">
+        <h3>REVIEWS</h3>
+        <i class="fas fa-times" data-close></i>
+      </header>
+    </div>
 
     <script src="/main.js"></script>
   </body>

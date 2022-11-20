@@ -74,9 +74,10 @@ button { outline: none;}
    letter-spacing: 1.63px;
    transition: 0.4s;
    height: 65px;
-   padding-left: 30px;
-   padding-right: 30px;
+   padding-left: 15px;
+   padding-right: 15px;
    box-shadow: 0 32px 54px rgba(3,3,3,0.12);
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .btn:not(:disabled):not(.disabled),
@@ -86,7 +87,7 @@ button:not(.disabled):not(.disabled) {
 
 .btn-primary, .btn-primary a {
    color: (var(--white));
-   background-color: #495fef;
+   background-color: #ee54c0;
    border-color: #495fef;
 }
 
