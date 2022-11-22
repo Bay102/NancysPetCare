@@ -19,7 +19,6 @@ nav {
 }
 
 body {
-   margin: 0;
    font-family: "Inter", sans-serif;
    font-size: 1rem;
    font-weight: 400;
@@ -27,7 +26,7 @@ body {
    color: var(--color-text);
    background-color: var(--bg);
    text-align: left;
-   width: 1100px;
+   max-width: 1100px;
    margin: auto;
  
 }
@@ -121,13 +120,13 @@ button:not(.disabled):not(.disabled) {
 }
 
 .sub-header {
-   font-size: 1.3125rem;
+   font-size: 1.1125rem;
    line-height: 1.5;
    padding-top: 1.25rem;
    padding-bottom: 1.875rem;
    background-color: #ee54c0;
    border-radius: 25px;
-   width: 800px;
+   width: 70%;
    height: 100px;
    margin: auto;
    margin-bottom: 10px;

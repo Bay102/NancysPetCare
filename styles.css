@@ -24,6 +24,7 @@
    flex-flow: row nowrap;
    padding: (0.5rem 1rem);
    width: 100%;
+   align-items: center;
 }
 
 .navbar-nav {
@@ -33,6 +34,11 @@
 
 .nav-logo {
    width: 100px;
+}
+
+.nav-text {
+   text-align: center;
+   font-family: cursive;
 }
 
 .brand-logo { padding: 10px; }
@@ -64,15 +70,23 @@
 }
 
  .hero-logo {
-   width: 500px;
-   margin-right: 70px;
+   width: 400px;
+   height: 350px;
+ 
  }
 
  .hero-logo-wrapper {
-   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    width: 100%;
    height: max-content;
    margin: auto;
+ }
+
+ .hero-logo-text {
+   font-family: cursive;
+   font-size: 40px;
  }
 
 
