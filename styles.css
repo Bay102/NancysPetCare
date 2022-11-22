@@ -1,6 +1,6 @@
 .custom-shape-divider-bottom-1669000324 {
    position: absolute;
-   bottom: 0px;
+   bottom: -170px;
    left: 0;
    width: 100%;
    overflow: hidden;
@@ -12,7 +12,7 @@
    position: relative;
    display: block;
    width: calc(270% + 1.3px);
-   height: 397px;
+   height: 597px;
 }
 
 .custom-shape-divider-bottom-1669000324 .shape-fill {
@@ -70,7 +70,7 @@
 }
 
  .hero-logo {
-   width: 400px;
+   width: 350px;
    height: 350px;
  
  }
@@ -255,6 +255,7 @@
    transition: all 0.5s ease-in;
    transform: scale(1.1);
    cursor: pointer;
+   color: black;
 }
 
 .modal-body {

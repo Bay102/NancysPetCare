@@ -4,7 +4,12 @@
    }
 
 .hero-logo {
-   width: 100%;
+   width: 150px;
+   height: 200px;
+}
+
+.hero-logo-text {
+   font-size: 20px;
 }
 
 .sub-header {
