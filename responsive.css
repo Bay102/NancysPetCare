@@ -16,8 +16,19 @@
    display: none;
 }
 
+.nav-text  { 
+   display: none;
+}
+.main-menu {
+  
+  
+   gap: 5px;
+}
+
 .main-menu .nav-item {
-   padding: 5px;
+   border: 1px solid pink; 
+   border-radius: 15px;
+    padding: 5px;
 }
 
 .hero-logo {
@@ -30,8 +41,10 @@
 }
 
 .sub-header {
+   font-size: 15px;
    width: 100%;
    height: max-content;
+   background-color: initial;
 }
 
 .portfolio-card {
@@ -47,7 +60,7 @@
 }
 
 .custom-shape-divider-bottom-1669000324 {
-   /* bottom: 125px; */
+   bottom: 125px;
 }
 
 }
