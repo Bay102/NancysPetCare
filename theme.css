@@ -8,21 +8,6 @@
    --border: #383f53;
 }
 
-[data-theme="dark"] .hero-bg {
-   background-image: url("/assets/hero-pattern.webp");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-[data-theme="light"] .hero-bg {
-   /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/241/097/original/paw-print-foot-trail-dog-cat-paw-print-free-vector.jpg"); */
-   background-position: center;
-   background-repeat: no-repeat;
-   
-   
-}
-
 [data-theme="dark"] {
    --bg: #171a23;
    --bg-panel: #f1f1f1;
@@ -32,6 +17,23 @@
    --color-text-base: #161c2d;
    --border: #ced4da;
 }
+
+[data-theme="dark"] .hero-bg {
+   background-image: url("/assets/hero-pattern.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+[data-theme="dark"] .modal-header h3 { color: black;}
+
+[data-theme="light"] .hero-bg {
+   /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/241/097/original/paw-print-foot-trail-dog-cat-paw-print-free-vector.jpg"); */
+   background-position: center;
+   background-repeat: no-repeat;  
+}
+
+
 
 .theme-panel {
    position: fixed;

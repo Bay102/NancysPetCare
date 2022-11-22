@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +8,7 @@
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/pages.css" />
     <link rel="stylesheet" href="/index.html" />
+    <link rel="stylesheet" href="/responsive.css">
     <script
       src="https://kit.fontawesome.com/67890cb4aa.js"
       crossorigin="anonymous"
@@ -18,7 +18,6 @@
 
   <body>
    
-
    <div class="theme-panel">
       <div class="theme-body">
          <span>Change Theme</span>
@@ -32,13 +31,13 @@
       </div>
    </div>
 
-    <main class="site-wrapper">
-      <div class="custom-shape-divider-bottom-1668948395">
+    <!-- <main class="site-wrapper">
+      <div class="custom-shape-divider-bottom-1669000324">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
         </svg>
-    </div>
-    </div>
+    </div> -->
+ 
     
       <header class="site-header">
         <nav class="navbar">
@@ -46,10 +45,10 @@
             <a href="/"
               ><img
                 class="nav-logo"
-                src="/NancysAssets/Screen Shot 2022-11-19 at 1.38.22 AM.png"
+                src="/NancysAssets/LogoTrans.png"
                 alt=""
             /></a>
-           </div>
+          </div>
           <div class="navbar-nav">
             <ul class="ul-defaults-none main-menu">
               <li class="nav-item">Home</li>
@@ -68,48 +67,144 @@
       <section class="hero-bg">
         <div class="container">
           <div class="hero-content">
-            <div class="code-icon">
-              <i class="fa-solid fa-paw"></i>
-            </div>
-            <h2 class="header-lg">
+              <div class="hero-logo-wrapper">
+                <img class="hero-logo" src="/NancysAssets/NancyslogoTrans.png" alt="">
+              </div>
+            
+            <!-- <h2 class="header-lg">
               The Private Dog Boarder <br />
               for <br />
               Las Vegas
-            </h2>
+            </h2> -->
             <div class="sub-header">
               Private In Home Dog Boarding, Puppy Training, Daycare & Much More!
               <br />
               Message Me Today to Schedule a FREE Meet & Greet!
             </div>
             <div class="btn btn-primary round-pill">
-              <a href="#" data-open="contact">New Client? Lets Talk Now</a>
+              <a href="#" data-open="newclients">New Client? Lets Talk Now</a>
             </div>
             </div>
           </div>
         </div>
       </section>
-    </main>
+      
+
+        <!-- Services  -->
+      <section class="portfolio-section">
+
+        <div class="container search-container">
+          <h3>SERVICES</h3>
+          <label for="search">
+            <input class="search-input" placeholder="Search..." autocomplete="off" type="text" name="" id="search">
+            <i class="fas fa-search"></i>
+          </label>
+        <ul class="portfolio-filter-nav ul-defaults-none">
+          <li data-filter="all" class="filter-link active">All</li>
+          <li data-filter="meet&greet" class="filter-link">Meet & Greet</li>
+          <li data-filter="boarding" class="filter-link">Boarding</li>
+          <li data-filter="training" class="filter-link">Training</li>
+          <li data-filter="daycare" class="filter-link">DayCare</li>
+          <li data-filter="dropins" class="filter-link">Drop-Ins</li>
+        </ul>
+        </div>
+
+        <div class="portfolio-grid">
+
+          <div class="portfolio-card" data-item="meet&greet" data-open="meet">
+            <div class="card-body">
+              <img src="https://cdn.shopify.com/s/files/1/1938/8295/articles/shutterstock_1672130176_800x.jpg?v=1654021026" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>Meet & Greet</div>
+                <h3>Free Meet & Greet</h3>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="boarding">
+            <div class="card-body">
+              <img src="https://hawaii.armymwr.com/application/files/8216/0459/7182/GettyImages-157668281.jpg" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>Overnight Boarding</div>
+                <h3>Private in-home Boarding</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-item="training">
+            <div class="card-body">
+              <img src="https://muttmanners.com/wp-content/uploads/2011/07/puppy-training-tips-1.jpg" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>Puppy Training</div>
+                <h3>New Puppy Obedience Training</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-item="extendedStays">
+            <div class="card-body">
+              <img src="https://petfriendlytravel.com/wp-content/uploads/2022/05/Sonesta-Hotels-pet-policy.jpg" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>Extended Stays</div>
+                <h3>Long Term Stays</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-item="daycare">
+            <div class="card-body">
+              <img src="https://images.ctfassets.net/sfnkq8lmu5d7/4JmwoB9rMxCAhP7xzg2vWP/e446aec5bbd2b750588193b7a3b86b4e/The-Wildest_Editorial_Dog_Daycare-_More_Than_Fun_and_Games_Hero.jpg?w=1000&h=750&fl=progressive&q=80&fm=jpg" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>DayCare</div>
+                <h3>Doggy Daycare</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-item="dropins">
+            <div class="card-body">
+              <img src="https://heydjangles.com/wp-content/uploads/2019/05/entryway-dog-door-rafterhouse.png" alt="portfolio-icon">
+              <div class="card-popup-box" >
+                <div>Drop-Ins</div>
+                <h3>Home Drop-Ins</h3>
+                <h4>(SW Vegas Only)</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    
+
+      </section>
 
     <!-- Modals Start  -->
 
+
     <!-- New Clients -->
     <div id="newclients" class="full-site-modal" data-animation="zoomInOut">
-      <header class="modal-header">
+      <div class="container-fluid">
+        <header class="modal-header">
         <h3>NEW CLIENTS</h3>
         <i class="fas fa-times" data-close></i>
       </header>
     </div>
+      </div>
+      
 
     <!-- Rates Modal -->
     <div id="rates" class="full-site-modal" data-animation="zoomInOut">
-      <header class="modal-header">
+      <div class="container-fluid">
+        <header class="modal-header">
         <h3>RATES</h3>
         <i class="fas fa-times" data-close></i>
       </header>
     </div>
+      </div>
+      
 
     <!-- Contact Modal -->
     <div id="contact" class="full-site-modal" data-animation="zoomInOut">
+      <div class="container-fluid">
       <header class="modal-header">
         <h3>CONTACT</h3>
         <i class="fas fa-times" data-close></i>
@@ -130,10 +225,14 @@
           <a href="mailto:zak@codebay.tech">Zak@codebay.tech</a>
         </div>
       </div>
+      </div>
     </div>
+
+
     <!-- About Modal -->
     <div id="about" class="full-site-modal" data-animation="zoomInOut">
-      <header class="modal-header">
+      <div class="container-fluid">
+        <header class="modal-header">
         <h3>ABOUT PAGE</h3>
         <i class="fas fa-times" data-close></i>
       </header>
@@ -154,15 +253,46 @@
         </div>
       </div>
     </div>
+      </div>
+      
 
     <!-- Reviews modal -->
     <div id="reviews" class="full-site-modal" data-animation="zoomInOut">
-      <header class="modal-header">
+      <div class="container-fluid">
+        <header class="modal-header">
         <h3>REVIEWS</h3>
         <i class="fas fa-times" data-close></i>
       </header>
     </div>
-
+      </div>
+      
+    
     <script src="/main.js"></script>
+
+
+    <!-- PopUP Modals  -->
+
+    <div id="meet" class="modal" data-animation="slideInOutTop">
+      <div class="modal-dialog">
+       <header class="modal-header">
+          <h3>Schedule Your Free Meet & Greet Today!</h3>
+          <i class="fas fa-times" data-service></i>
+       </header>
+       <div class="modal-body">
+          <div class="img-wrapper">
+             <img src="/NancysAssets/Nancys logo.png" alt="portfolio image">
+          </div>
+          <div class="text-wrapper">
+             <p><strong>My first awesome website</strong></p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+       </div>
+      </div>
+    </div>
+
+
+
+  </main>
   </body>
 </html>
