@@ -69,6 +69,8 @@ for (const elm of switcher) {
 })
 }
 
+
+
 //// -------------------- MODAL STUFF ------------------------ //////
 
 const modalOpen = '[data-open]';

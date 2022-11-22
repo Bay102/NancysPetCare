@@ -18,12 +18,12 @@
 
   <body>
     <main class="site-wrapper">
- <div class="custom-shape-divider-bottom-1669000324">
+      <div class="custom-shape-divider-bottom-1669000324">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
         </svg>
     </div> 
-   <div class="theme-panel">
+    <div class="theme-panel">
       <div class="theme-body">
          <span>Change Theme</span>
       <div class="btn-group">
@@ -36,10 +36,6 @@
       </div>
    </div>
 
-   
-      
-
-    
       <header class="site-header">
         <nav class="navbar">
           <div class="brand-logo">
@@ -101,10 +97,10 @@
 
         <div class="container search-container">
           <h3>SERVICES</h3>
-          <label for="search">
+          <!-- <label for="search">
             <input class="search-input" placeholder="Search..." autocomplete="off" type="text" name="" id="search">
             <i class="fas fa-search"></i>
-          </label>
+          </label> -->
         <ul class="portfolio-filter-nav ul-defaults-none">
           <li data-filter="all" class="filter-link active">All</li>
           <li data-filter="meet&greet" class="filter-link">Meet & Greet</li>
@@ -179,10 +175,97 @@
 
         </div>
       </section>
+     
+      <section class="reviews">
+        <div class="review-title">What people say</div>
+        <h2 class="header-md">Trusted By Clients</h2>
+        <div class="review-preview">
+           <img src="/NancysAssets/LogoTrans.png" alt="cube">
+        </div>
+  
+        <div class="review-carousel">
+  
+           <div class="review-item">
+              <div class="review-text">
+                  portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="review-author">
+                 <div class="avatar">
+                  <i class="fa-solid fa-user"></i>
+                    <!-- <img src="" alt="avatar"> -->
+                 </div>
+                 <div class="details">
+                  <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+                    <div class="name">Zak Bay</div>
+                    <div class="company">Skate World Wide</div>
+                 </div>
+              </div>
+           </div>
+           <div class="review-item">
+              <div class="review-text">
+                  portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="review-author">
+                 <div class="avatar">
+                  <i class="fa-solid fa-user"></i>
+                   <!-- <img src="" alt="avatar"> -->
+                 </div>
+                 <div class="details">
+                  <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+                    <div class="name">John Doe</div>
+                    <div class="company">Skate World Wide</div>
+                 </div>
+              </div>
+           </div>
+        
+        <div class="review-item">
+           <div class="review-text">
+               portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </div>
+           <div class="review-author">
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+                 <!-- <img src="" alt="avatar"> -->
+              </div>
+              <div class="details">
+                <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+                 <div class="name">Jane Doe</div>
+                 <div class="company">Snowplace</div>
+              </div>
+           </div>
+        </div>
+        <div class="review-item">
+           <div class="review-text">
+              portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </div>
+           <div class="review-author">
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+                 <!-- <img src="" alt="avatar"> -->
+              </div>
+              <div class="details">
+                <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+                 <div class="name">Jack Doe</div>
+                 <div class="company">Gun Palace</div>
+              </div>
+           </div>
+        </div>
+     </div>
+        <div class="slide-ctrl-container">
+           <button>
+              <i class="fas fa-arrow-left"></i>
+           </button>
+           <button>
+              <i class="fas fa-arrow-right"></i>
+           </button>
+        </div>
+     </section>
+
+
 
     <!-- Modals Start  -->
 
-    <!-- New Clients -->
+    <!-- New Clients Nav -->
     <div id="newclients" class="full-site-modal" data-animation="zoomInOut">
       <div class="container-fluid">
         <header class="modal-header">
@@ -193,7 +276,7 @@
       </div>
       
 
-    <!-- Rates Modal -->
+    <!-- Rates Nav -->
     <div id="rates" class="full-site-modal" data-animation="zoomInOut">
       <div class="container-fluid">
         <header class="modal-header">
@@ -204,7 +287,7 @@
       </div>
       
 
-    <!-- Contact Modal -->
+    <!-- Contact Nav -->
     <div id="contact" class="full-site-modal" data-animation="zoomInOut">
       <div class="container-fluid">
       <header class="modal-header">
@@ -231,7 +314,7 @@
     </div>
 
 
-    <!-- About Modal -->
+    <!-- About Nav -->
     <div id="about" class="full-site-modal" data-animation="zoomInOut">
       <div class="container-fluid">
         <header class="modal-header">
@@ -258,7 +341,7 @@
       </div>
       
 
-    <!-- Reviews modal -->
+    <!-- Reviews Nav -->
     <div id="reviews" class="full-site-modal" data-animation="zoomInOut">
       <div class="container-fluid">
         <header class="modal-header">
@@ -295,5 +378,7 @@
 
 </main>
  <script src="/main.js"></script>
+ <script src="/carousel.js"></script>
+ <script src="/serviceCards.js"></script>
   </body>
 </html>
