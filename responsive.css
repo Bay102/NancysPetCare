@@ -1,7 +1,24 @@
 @media screen and (max-width: 400px) {
+   body {
+      max-width: 400px;
+   }
+
 .navbar {
       flex-direction: column;
    }
+
+.navbar-nav {
+   margin: auto;
+
+}
+
+.nav-logo {
+   display: none;
+}
+
+.main-menu .nav-item {
+   padding: 5px;
+}
 
 .hero-logo {
    width: 150px;
@@ -15,6 +32,22 @@
 .sub-header {
    width: 100%;
    height: max-content;
+}
+
+.portfolio-card {
+   max-width: none ;
+}
+
+.hero-content {
+   padding: 0;
+}
+
+.sub-header {
+   padding: 0;
+}
+
+.custom-shape-divider-bottom-1669000324 {
+   bottom: 125px;
 }
 
 }
