@@ -100,7 +100,7 @@ button:not(.disabled):not(.disabled) {
 
 .btn-primary, .btn-primary a {
    color: (var(--white));
-   background-color: #ee54c0;
+   background-color: #7a5b71;
    border-color: #495fef;
 }
 
@@ -125,7 +125,7 @@ button:not(.disabled):not(.disabled) {
    line-height: 1.5;
    padding-top: 1.25rem;
    padding-bottom: 1.875rem;
-   background-color: #ee54c0;
+   background-color: #7a5b71;
    border-radius: 25px;
    width: 70%;
    height: 100px;
