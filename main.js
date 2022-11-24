@@ -103,12 +103,6 @@ for (const elm of closeModal) { // close modal buttons
    })
 }
 
-for (const elm of closeService) {
-   elm.addEventListener("click", function() {
-      console.log(elm)
-      this.parentElement.parentElement.parentElement.classList.remove(isVisible)
-   })
-}
 
 
 
@@ -169,3 +163,9 @@ document.addEventListener('keyup', (e) => {
    }
 });
 
+for (const elm of closeService) {
+   elm.addEventListener("click", function() {
+      console.log(elm)
+      this.parentElement.parentElement.parentElement.classList.remove(isVisible)
+   })
+}
